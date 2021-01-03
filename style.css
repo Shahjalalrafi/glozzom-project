@@ -1,0 +1,148 @@
+.navbar{
+	background: #000;
+	font-size: 16px;
+	text-transform: uppercase;
+	/*color: #fff;*/
+
+}
+.navbar ul li a{
+	
+	color: #fff;
+	margin-left: 50px;
+}
+
+/*CAROUSEL*/
+.carousel-item{
+	height: 750px;
+}
+.carousel-img-1{
+	background: url(img/cartoon.jpg);
+	background-size: cover;
+}
+.carousel-img-2{
+	background: url(img/cartoon1.jpg);
+	background-size: cover;
+}
+.carousel-img-3{
+	background: url(img/cartoon2.jpg);
+	background-size: cover;
+	background-position: top;
+}
+
+#home-icon .fa{
+	font-size: 50px;
+}
+
+
+#get-started{
+	background: url(img/wall.jpg);
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+#get-started .dark-overlay{
+	background: #333;
+	opacity: .8;
+}
+#home-video{
+	background: url(img/wall1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+#home-video .dark-overlay{
+	background: #333;
+	opacity: .8;
+}
+#home-video .dark-overlay .fa{
+	font-size: 50px;
+	color: #ff0000;
+}
+
+#home-gallery img{
+	min-height: 250px;
+}
+
+#footers{
+	background: black;
+	padding: 5px;
+}
+
+
+#about-us{
+	background: url(img/cartoon1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+#about-us h2{
+	color: #fff;
+}
+#about-what img{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+}
+#about-icon .fa{
+	font-size: 50px;
+	padding-bottom: 20px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+}
+#services{
+	background: url(img/cartoon.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+#services h2{
+	color: #fff;
+}
+#blog{
+	background: url(img/croud.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+#blog h2{
+	color: #fff;
+}
+#contact{
+	background: url(img/croud.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+#contact h2{
+	color: #fff;
+}
+
+
+
+@media (max-width: 480px){
+	.navbar ul li a{
+		margin-left: 0rem;
+	}
+}
+
+@media (max-width: 678px){
+	.carousel h2{
+		font-size: 40px;
+	}
+	.carousel .carousel-item{
+		margin-top: 30px;
+	}
+	.carousel-item{
+	height: 450px;
+}
+}
